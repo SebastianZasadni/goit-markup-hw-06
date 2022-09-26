@@ -644,11 +644,6 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
-.form-area:focus-within {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
-
 .comment-area:focus-within {
   border: 1px solid #2196f3;
   border-radius: 4px;
@@ -702,8 +697,8 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
 }
-.form-area:focus-within .form-icons.user path {
-  fill: #2196f3;
+.label-modal:hover .form-area .form-icons {
+  fill: yellow;
 }
 .form-icons.user {
   position: absolute;

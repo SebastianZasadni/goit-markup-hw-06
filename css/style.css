@@ -697,7 +697,7 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
 }
-.label-modal:hover .form-area .form-icons {
+.label-modal:hover .form-area .form-icons path {
   fill: yellow;
   background-color: yellow;
 }

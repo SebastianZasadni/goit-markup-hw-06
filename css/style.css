@@ -695,7 +695,7 @@ label {
   border-radius: 4px;
   color: #fff;
 }
-#username .form-icons {
+#username > .form-icons {
   margin: 5px;
   fill: blue;
   display: inline-block;

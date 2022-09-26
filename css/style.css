@@ -697,7 +697,7 @@ label {
   color: #fff;
 }
 .form-area {
-  background-image: url(../images/icons.svg#icon-formuser);
+  background-image: url(../images/icons.svg#icon-close);
   background-repeat: no-repeat;
   background-size: 16px 16px;
 }
@@ -705,4 +705,12 @@ label {
   background-image: url(../images/magazyn.jpg);
   background-repeat: no-repeat;
   text-indent: 20px;
+}
+#icon-formuser {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }

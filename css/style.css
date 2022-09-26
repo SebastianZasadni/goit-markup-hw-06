@@ -627,6 +627,7 @@ label {
   line-height: 1.16;
   margin-top: 10px;
   display: block;
+  position: relative;
 }
 .header-form {
   font-family: "Roboto";
@@ -643,7 +644,6 @@ label {
   border-radius: 4px;
   margin-top: 4px;
   padding-left: 42px;
-  position: relative;
 }
 .comment-area {
   margin-top: 4px;
@@ -687,7 +687,13 @@ label {
   border-radius: 4px;
   color: #fff;
 }
-.form-area:focus-within {
+
+.form-area:focus {
+  border: none;
+  border: 1px solid #2196f3;
+}
+.form-area:hover {
+  border: none;
   border: 1px solid #2196f3;
 }
 .form-area:focus .form-icons path {

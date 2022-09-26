@@ -708,3 +708,11 @@ label {
   top: 50px;
   left: 50px;
 }
+.form-icons .telnumber {
+  top: 70px;
+  left: 50px;
+}
+.form-icons .email {
+  top: 90px;
+  left: 50px;
+}

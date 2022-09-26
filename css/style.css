@@ -703,19 +703,17 @@ label {
   stroke-width: 0;
   stroke: currentColor;
   fill: #757575;
+  position: absolute;
 }
 .form-icons .user {
-  position: absolute;
   top: 30px;
   left: 30px;
 }
 .form-icons .phone {
-  position: absolute;
   top: 60px;
   left: 60px;
 }
 .form-icons .email {
-  position: absolute;
   top: 90px;
   left: 90px;
 }

@@ -690,7 +690,7 @@ label {
 .form-area:focus-within {
   border: 1px solid #2196f3;
 }
-.form-area:focus-within .form-icons {
+.form-area:focus .form-icons path {
   fill: #2196f3;
 }
 .comment-area:focus-within {
@@ -706,14 +706,12 @@ label {
   position: absolute;
 }
 .form-icons .user {
-  top: 30px;
+  top: 10px;
   left: 30px;
 }
 .form-icons .phone {
-  top: 60px;
-  left: 60px;
+  top: 40px;
 }
 .form-icons .email {
-  top: 90px;
-  left: 90px;
+  top: 70px;
 }

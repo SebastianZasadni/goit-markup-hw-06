@@ -703,7 +703,10 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
 }
-.form-area:focus-within .form-icons {
+.form-area:focus .form-icons {
+  fill: #2196f3;
+}
+.form-icons:focus {
   fill: #2196f3;
 }
 .form-icons.user {

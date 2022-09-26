@@ -643,6 +643,7 @@ label {
   border-radius: 4px;
   margin-top: 4px;
   padding-left: 42px;
+  position: relative;
 }
 .comment-area {
   margin-top: 4px;

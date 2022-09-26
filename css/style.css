@@ -689,6 +689,9 @@ label {
 .form-area:focus-within {
   border: 1px solid #2196f3;
 }
+.form-area:focus-within .form-icons {
+  fill: #2196f3;
+}
 .comment-area:focus-within {
   border: 1px solid #2196f3;
 }
@@ -699,5 +702,20 @@ label {
   height: 16px;
   stroke-width: 0;
   stroke: currentColor;
-  fill: currentColor;
+  fill: #757575;
+}
+.form-icons .user {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.form-icons .phone {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+.form-icons .email {
+  position: absolute;
+  top: 90px;
+  left: 90px;
 }

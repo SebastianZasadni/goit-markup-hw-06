@@ -711,17 +711,17 @@ section.bottom {
 }
 .form-icons.user {
   position: absolute;
-  top: 135px;
+  top: 130px;
   left: 55px;
 }
 .form-icons.telnumber {
   position: absolute;
-  top: 200px;
+  top: 205px;
   left: 55px;
 }
 .form-icons.email {
   position: absolute;
-  top: 250px;
+  top: 265px;
   left: 55px;
 }
 .newsletter-box h3 {

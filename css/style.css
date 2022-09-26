@@ -709,4 +709,5 @@ label {
   stroke-width: 0;
   stroke: currentColor;
   position: absolute;
+  top: 1px;
 }

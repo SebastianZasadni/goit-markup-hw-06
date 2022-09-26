@@ -701,6 +701,8 @@ section.bottom {
   fill: yellow;
   background-color: yellow;
 }
+.form-area:focus .form-area {
+}
 .form-icons.user {
   position: absolute;
   top: 132px;

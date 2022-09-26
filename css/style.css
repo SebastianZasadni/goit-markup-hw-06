@@ -696,15 +696,6 @@ label {
   border-radius: 4px;
   color: #fff;
 }
-.form-icons {
-  display: block;
-  width: 16px;
-  height: 16px;
-  stroke-width: 0;
-  stroke: currentColor;
-  position: absolute;
-  top: 1px;
-}
 .form-area {
   background-image: url(../images/icons.svg#icon-formuser);
   background-repeat: no-repeat;

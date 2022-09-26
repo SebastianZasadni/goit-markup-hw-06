@@ -642,7 +642,6 @@ label {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
-  padding-left: 42px;
   position: relative;
 }
 .form-area:focus {
@@ -696,21 +695,9 @@ label {
   border-radius: 4px;
   color: #fff;
 }
-.form-area {
-  background-image: url(../images/icons.svg#icon-close);
-  background-repeat: no-repeat;
-  background-size: 16px 16px;
-}
-.form-area:focus {
-  background-image: url(../images/magazyn.jpg);
-  background-repeat: no-repeat;
-  text-indent: 20px;
-}
-#icon-formuser {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+.form-area:first-child .form-icons {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  fill: blue;
 }

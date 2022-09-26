@@ -692,12 +692,9 @@ label {
 .comment-area:focus-within {
   border: 1px solid #2196f3;
 }
-
 .form-icons {
   display: block;
-  position: absolute;
-  top: 130px;
-  left: 50px;
+  margin: 10px;
   width: 16px;
   height: 16px;
   stroke-width: 0;

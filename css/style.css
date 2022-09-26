@@ -703,20 +703,20 @@ label {
   stroke-width: 0;
   stroke: currentColor;
 }
-.form-area:hover .form-icons {
+.form-area:hover.form-icons {
   fill: #2196f3;
 }
-.form-icons .user {
+.form-icons.user {
   position: absolute;
   top: 5px;
   left: 5px;
 }
-.form-icons .telnumber {
+.form-icons.telnumber {
   position: absolute;
   top: 70px;
   left: 50px;
 }
-.form-icons .email {
+.form-icons.email {
   position: absolute;
   top: 90px;
   left: 50px;

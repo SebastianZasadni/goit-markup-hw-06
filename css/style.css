@@ -696,7 +696,7 @@ label {
   color: #fff;
 }
 .form-icons {
-  fill: blue;
+  fill: #757575;
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -704,7 +704,7 @@ label {
   stroke: currentColor;
 }
 .form-area:hover .form-icons {
-  fill: yellow;
+  fill: #2196f3;
 }
 .form-icons .user {
   position: absolute;

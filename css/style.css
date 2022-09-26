@@ -703,7 +703,7 @@ label {
   stroke-width: 0;
   stroke: currentColor;
 }
-.form-area:focus .form-icons path {
+.form-area:hover .form-icons {
   fill: yellow;
 }
 .form-icons .user {

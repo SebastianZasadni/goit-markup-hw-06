@@ -644,6 +644,42 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
+.form-area:nth-of-type(1) {
+  background-image: url(../images/icons.svg#icon-formuser);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 5px top 5px;
+}
+.form-area:nth-of-type(2) {
+  background-image: url(../images/icons.svg#icon-formphone);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 5px top 5px;
+}
+.form-area:nth-of-type(3) {
+  background-image: url(../images/icons.svg#icon-formemail);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 5px top 5px;
+}
+.form-area:focus:nth-of-type(1) {
+  background-image: url(../images/icons.svg#icon-formuserfocus);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 5px top 5px;
+}
+.form-area:focus:nth-of-type(2) {
+  background-image: url(../images/icons.svg#icon-formphonefocus);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 5px top 5px;
+}
+.form-area:focus:nth-of-type(3) {
+  background-image: url(../images/icons.svg#icon-formemailfocus);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 5px top 5px;
+}
 .comment-area:focus-within {
   border: 1px solid #2196f3;
   border-radius: 4px;
@@ -689,35 +725,6 @@ section.bottom {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #fff;
-}
-.form-icons {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  stroke-width: 0;
-  stroke: currentColor;
-}
-.form-area:focus {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
-.form-icons:hover {
-  fill: yellow;
-}
-.form-icons.user {
-  position: absolute;
-  top: 132px;
-  left: 55px;
-}
-.form-icons.telnumber {
-  position: absolute;
-  top: 202px;
-  left: 55px;
-}
-.form-icons.email {
-  position: absolute;
-  top: 267px;
-  left: 55px;
 }
 .newsletter-box h3 {
   color: #fff;

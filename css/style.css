@@ -698,8 +698,8 @@ section.bottom {
 .form-icons {
   fill: #212121;
   display: inline-block;
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   stroke-width: 0;
   stroke: currentColor;
 }
@@ -708,20 +708,18 @@ section.bottom {
 }
 .form-icons.user {
   position: absolute;
-  top: 140px;
+  top: 130px;
   left: 55px;
 }
 .form-icons.telnumber {
   position: absolute;
-  top: 180px;
+  top: 210px;
   left: 55px;
 }
 .form-icons.email {
   position: absolute;
-  top: 220px;
+  top: 270px;
   left: 55px;
-}
-.newsletter-box {
 }
 .newsletter-box h3 {
   color: #fff;

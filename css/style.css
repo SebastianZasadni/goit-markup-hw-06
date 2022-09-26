@@ -704,7 +704,7 @@ label {
   stroke-width: 0;
   stroke: currentColor;
 }
-.form-area:focus .form-icons {
+.form-area:focus .form-icons path {
   fill: yellow;
 }
 .form-icons .user {

@@ -697,11 +697,12 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
 }
-.label-modal:hover .form-area .form-icons path {
-  fill: yellow;
-  background-color: yellow;
+.form-area:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
-.form-area:focus .form-area {
+.form-icons:hover {
+  fill: yellow;
 }
 .form-icons.user {
   position: absolute;

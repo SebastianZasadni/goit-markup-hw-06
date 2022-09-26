@@ -700,4 +700,9 @@ label {
   top: 1px;
   left: 1px;
   fill: blue;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
 }

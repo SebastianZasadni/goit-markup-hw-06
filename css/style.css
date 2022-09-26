@@ -696,7 +696,6 @@ label {
   color: #fff;
 }
 .form-icons {
-  position: absolute;
   fill: blue;
   display: inline-block;
   width: 16px;
@@ -708,14 +707,17 @@ label {
   fill: yellow;
 }
 .form-icons .user {
+  position: absolute;
   top: 5px;
   left: 5px;
 }
 .form-icons .telnumber {
+  position: absolute;
   top: 70px;
   left: 50px;
 }
 .form-icons .email {
+  position: absolute;
   top: 90px;
   left: 50px;
 }

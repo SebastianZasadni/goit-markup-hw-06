@@ -699,6 +699,7 @@ section.bottom {
 }
 .label-modal:hover .form-area .form-icons {
   fill: yellow;
+  background-color: yellow;
 }
 .form-icons.user {
   position: absolute;

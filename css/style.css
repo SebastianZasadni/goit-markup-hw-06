@@ -696,7 +696,6 @@ section.bottom {
   color: #fff;
 }
 .form-icons {
-  fill: #212121;
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -706,7 +705,7 @@ section.bottom {
 .form-area:focus .form-icons {
   fill: #2196f3;
 }
-.form-icons:focus {
+.form-icons:hover path {
   fill: #2196f3;
 }
 .form-icons.user {

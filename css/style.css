@@ -695,12 +695,16 @@ label {
   border-radius: 4px;
   color: #fff;
 }
-#username > .form-icons {
-  margin: 5px;
+.form-icons {
+  position: absolute;
   fill: blue;
   display: inline-block;
   width: 16px;
   height: 16px;
   stroke-width: 0;
   stroke: currentColor;
+}
+.form-icons .user {
+  top: 50px;
+  left: 50px;
 }

@@ -701,7 +701,6 @@ section.bottom {
   height: 16px;
   stroke-width: 0;
   stroke: currentColor;
-  fill: currentColor;
 }
 .form-area:focus-within .form-icons.user {
   fill: #2196f3;

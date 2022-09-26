@@ -691,7 +691,13 @@ label {
   border: 1px solid #2196f3;
 }
 .form-area:focus .form-icons path {
+  display: block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: currentColor;
   fill: #2196f3;
+  position: absolute;
 }
 .comment-area:focus-within {
   border: 1px solid #2196f3;
@@ -704,14 +710,4 @@ label {
   stroke: currentColor;
   fill: #757575;
   position: absolute;
-}
-.form-icons .user {
-  top: 10px;
-  left: 30px;
-}
-.form-icons .phone {
-  top: 40px;
-}
-.form-icons .email {
-  top: 70px;
 }

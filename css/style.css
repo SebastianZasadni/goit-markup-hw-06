@@ -699,7 +699,6 @@ label {
 .form-area {
   background-image: url(../images/icons.svg#icon-formuser);
   background-repeat: no-repeat;
-  text-indent: 20px;
   background-size: 16px 16px;
 }
 .form-area:focus {

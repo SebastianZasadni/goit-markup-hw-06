@@ -627,6 +627,7 @@ label {
   line-height: 1.16;
   margin-top: 10px;
   display: block;
+  position: relative;
 }
 .header-form {
   font-family: "Roboto";
@@ -642,14 +643,13 @@ label {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
-  position: relative;
 }
-.form-area:focus {
+.form-area:focus-within {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
 
-.comment-area:focus {
+.comment-area:focus-within {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
@@ -703,7 +703,7 @@ label {
   stroke-width: 0;
   stroke: currentColor;
 }
-.form-area:hover.form-icons {
+.form-area:focus-within.form-icons {
   fill: #2196f3;
 }
 .form-icons.user {

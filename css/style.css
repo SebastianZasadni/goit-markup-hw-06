@@ -695,10 +695,10 @@ label {
   color: #fff;
 }
 .form-icons {
-  fill: #757575;
+  fill: #212121;
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   stroke-width: 0;
   stroke: currentColor;
 }
@@ -707,16 +707,16 @@ label {
 }
 .form-icons.user {
   position: absolute;
-  top: 80px;
-  left: 60px;
+  top: 140px;
+  left: 55px;
 }
 .form-icons.telnumber {
   position: absolute;
-  top: 120px;
-  left: 60px;
+  top: 180px;
+  left: 55px;
 }
 .form-icons.email {
   position: absolute;
-  top: 160px;
-  left: 60px;
+  top: 220px;
+  left: 55px;
 }

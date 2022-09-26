@@ -695,7 +695,7 @@ label {
   border-radius: 4px;
   color: #fff;
 }
-.form-area:first-child .form-icons {
+#username .form-icons {
   position: absolute;
   top: 1px;
   left: 1px;

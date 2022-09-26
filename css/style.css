@@ -717,3 +717,10 @@ label {
   position: absolute;
   top: 1px;
 }
+.tekscik {
+  width: 300px;
+  height: 300px;
+  border: 2px solid yellow;
+  background: grey;
+  color: blue;
+}

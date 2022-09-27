@@ -643,9 +643,11 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
+.input-area:active {
+  border: 1px solid #2196f3;
+}
 .input-area:focus-within {
   border: 1px solid #2196f3;
-  border-radius: 4px;
 }
 .input-area.first {
   background-image: url("../images/icons.svg#icon-formuser");

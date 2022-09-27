@@ -697,17 +697,6 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
 }
-.form-area:focus {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-}
-.form-area.user:focus {
-  border: 5px solid #2196f3;
-  border-radius: 4px;
-}
-.form-icons:hover {
-  fill: yellow;
-}
 .form-icons.user {
   position: absolute;
   top: 132px;
@@ -722,6 +711,20 @@ section.bottom {
   position: absolute;
   top: 267px;
   left: 55px;
+  fill: yellow;
+}
+.form-area:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+.form-area.user:focus {
+  border: 5px solid #2196f3;
+  border-radius: 4px;
+}
+.form-area.user:focus .form-icons.user {
+  fill: green;
+}
+.form-icons:hover {
   fill: yellow;
 }
 .newsletter-box h3 {

@@ -713,12 +713,12 @@ section.bottom {
   left: 55px;
   fill: yellow;
 }
-.form-area:focus:focus-within {
+.form-area:focus-within {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.form-icons:focus {
-  fill: yellow;
+.form-area.user:focus-within ..form-icons.user {
+  fill: green;
 }
 .newsletter-box h3 {
   color: #fff;

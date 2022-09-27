@@ -636,13 +636,17 @@ section.bottom {
   text-align: center;
   color: #212121;
 }
-.form-area {
+.input-area {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
   padding: 12px 42px;
+}
+.input-area:focus-within {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 .input-area.first {
   background-image: url(../images/icons.svg#icon-formuser);

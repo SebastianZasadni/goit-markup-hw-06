@@ -718,6 +718,7 @@ section.bottom {
   position: absolute;
   top: 267px;
   left: 55px;
+  fill: yellow;
 }
 .newsletter-box h3 {
   color: #fff;

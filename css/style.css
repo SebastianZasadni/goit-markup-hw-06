@@ -713,18 +713,11 @@ section.bottom {
   left: 55px;
   fill: yellow;
 }
-.form-area:focus {
+.form-area:focus:focus-within {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.form-area.user:focus {
-  border: 5px solid #2196f3;
-  border-radius: 4px;
-}
-.form-area.user:focus .form-icons.user {
-  fill: green;
-}
-.form-icons:hover {
+.form-icons:focus {
   fill: yellow;
 }
 .newsletter-box h3 {

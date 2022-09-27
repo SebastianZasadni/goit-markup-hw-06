@@ -721,7 +721,7 @@ section.bottom {
   border: 5px solid #2196f3;
   border-radius: 4px;
 }
-.form-area.user:focus .form-icons.user {
+.form-area.user:focus .form-icons .user {
   fill: green;
 }
 .newsletter-box h3 {

@@ -644,37 +644,37 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
-.form-area:nth-of-type(1) {
+.input-area.first {
   background-image: url(../images/icons.svg#icon-formuser);
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: left 5px top 5px;
 }
-.form-area:nth-of-type(2) {
+.input-area.second {
   background-image: url(../images/icons.svg#icon-formphone);
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: left 5px top 5px;
 }
-.form-area:nth-of-type(3) {
+.input-area.third {
   background-image: url(../images/icons.svg#icon-formemail);
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: left 5px top 5px;
 }
-.form-area:focus:nth-of-type(1) {
+.input-area.first:focus {
   background-image: url(../images/icons.svg#icon-formuserfocus);
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: left 5px top 5px;
 }
-.form-area:focus:nth-of-type(2) {
+.input-area.second:focus {
   background-image: url(../images/icons.svg#icon-formphonefocus);
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: left 5px top 5px;
 }
-.form-area:focus:nth-of-type(3) {
+.input-area.third:focus {
   background-image: url(../images/icons.svg#icon-formemailfocus);
   background-repeat: no-repeat;
   background-size: 16px 16px;

@@ -648,37 +648,37 @@ section.bottom {
   border-radius: 4px;
 }
 .input-area .first {
-  background-image: url(../images/icons.svg#icon-formuser);
+  background-image: url("../images/icons.svg#icon-formuser");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
 .input-area .second {
-  background-image: url(../images/icons.svg#icon-formphone);
+  background-image: url("../images/icons.svg#icon-formphone");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
 .input-area .third {
-  background-image: url(../images/icons.svg#icon-formemail);
+  background-image: url("../images/icons.svg#icon-formemail");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
 .input-area .first:focus {
-  background-image: url(../images/icons.svg#icon-formuserfocus);
+  background-image: url("../images/icons.svg#icon-formuserfocus");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
 .input-area .second:focus {
-  background-image: url(../images/icons.svg#icon-formphonefocus);
+  background-image: url("../images/icons.svg#icon-formphonefocus");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
 .input-area .third:focus {
-  background-image: url(../images/icons.svg#icon-formemailfocus);
+  background-image: url("../images/icons.svg#icon-formemailfocus");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;

@@ -651,19 +651,16 @@ section.bottom {
   background-image: url("../images/icons.svg#icon-formuser");
   background-repeat: no-repeat;
   background-size: 16px 16px;
-  background-position: left 5px top 5px;
 }
 .second {
   background-image: url("../images/icons.svg#icon-formphone");
   background-repeat: no-repeat;
   background-size: 16px 16px;
-  background-position: left 5px top 5px;
 }
 .third {
   background-image: url("../images/icons.svg#icon-formemail");
   background-repeat: no-repeat;
   background-size: 16px 16px;
-  background-position: left 5px top 5px;
 }
 .first:focus {
   background-image: url("../images/icons.svg#icon-formuserfocus");

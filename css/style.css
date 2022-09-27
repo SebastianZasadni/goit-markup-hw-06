@@ -642,7 +642,10 @@ section.bottom {
   border-radius: 4px;
   margin-top: 4px;
   padding: 12px 42px;
-  background: yellow;
+  background-image: url("../images/icons.svg#icon-formuser");
+  background: grey;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 }
 .input-area:focus-within {

@@ -647,37 +647,37 @@ section.bottom {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-.input-area .first {
+.input-area.first {
   background-image: url("../images/icons.svg#icon-formuser");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
-.input-area .second {
+.input-area.second {
   background-image: url("../images/icons.svg#icon-formphone");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
-.input-area .third {
+.input-area.third {
   background-image: url("../images/icons.svg#icon-formemail");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
-.input-area .first:focus {
+.input-area.first:focus {
   background-image: url("../images/icons.svg#icon-formuserfocus");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
-.input-area .second:focus {
+.input-area.second:focus {
   background-image: url("../images/icons.svg#icon-formphonefocus");
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: left 5px top 5px;
 }
-.input-area .third:focus {
+.input-area.third:focus {
   background-image: url("../images/icons.svg#icon-formemailfocus");
   background-repeat: no-repeat;
   background-size: 10px;

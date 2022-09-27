@@ -642,6 +642,7 @@ section.bottom {
   border-radius: 4px;
   margin-top: 4px;
   padding: 12px 42px;
+  background: yellow;
 }
 .input-area:focus-within {
   border: 1px solid #2196f3;

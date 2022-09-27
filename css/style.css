@@ -724,9 +724,6 @@ section.bottom {
 .form-area.user:focus .form-icons.user {
   fill: green;
 }
-.form-icons:hover {
-  fill: yellow;
-}
 .newsletter-box h3 {
   color: #fff;
   font-family: "Roboto";

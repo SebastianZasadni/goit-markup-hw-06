@@ -422,14 +422,20 @@
         </svg></button>
         <h3 class="header-form">Zostaw swoje dane w formularzu poniżej</h3>
         <form class="form-modal">
-          <label for="user_name" class="label-modal">Imię
-          <input type="text" name="username" id="user_name" class="input-area first"/>
-          </label>
+          <label for="user_name">Imię
+          <input type="text" name="username" id="user_name" class="form-area"/>
+          <svg class="form-icons user">
+          <use href="./images/icons.svg#icon-formuser"></use>
+          </svg></label>
           <label for="user_phone">Telefon
-          <input type="tel" name="userphone" id="user_phone" class="input-area second"/></label>
+          <input type="tel" name="userphone" id="user_phone" class="form-area"/> <svg class="form-icons telnumber">
+            <use href="./images/icons.svg#icon-formphone"></use>
+          </svg></label>
           <label for="user_email">Email
-          <input type="email" name="email" id="user_email" class="input-area third"/>
-         </label>
+          <input type="email" name="email" id="user_email" class="form-area"/>
+          <svg class="form-icons email">
+            <use href="./images/icons.svg#icon-formemail"></use>
+          </svg></label>
           <label for="user_comment">Komentarz
             <textarea name="usercomment" id="user_comment" class="comment-area" rows="5" placeholder="Wprowadź tekst"></textarea>
           </label>

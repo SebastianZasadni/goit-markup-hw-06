@@ -644,6 +644,8 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
   background-image: url("../images/icons.svg#icon-exit");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
 }
 .comment-area:focus-within {
   border: 1px solid #2196f3;

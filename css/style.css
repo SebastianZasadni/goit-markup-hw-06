@@ -744,9 +744,9 @@ section.bottom {
 .label-footer {
   display: flex;
 }
-.test{
+.test {
   background-color: yellow;
-  background-image: url(''../images/icons.svg#ikonki');
+  background-image: url("../images/icons.svg#ikonki");
   background-size: 16px 16px;
   border: 2px solid grey;
 }

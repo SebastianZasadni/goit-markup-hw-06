@@ -719,6 +719,7 @@ section.bottom {
 .form-area:focus-within {
   border: 1px solid #2196f3;
   border-radius: 4px;
+  fill: black;
 }
 .form-area.user:focus-within ..form-icons.user {
   fill: green;

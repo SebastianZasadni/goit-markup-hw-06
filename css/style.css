@@ -643,9 +643,6 @@ section.bottom {
   border-radius: 4px;
   margin-top: 4px;
   padding: 12px 42px;
-  background-image: url("../images/icons.svg#icon-mobile");
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
 }
 .inpunt-area:focus {
   width: 448px;
@@ -654,9 +651,6 @@ section.bottom {
   border-radius: 4px;
   margin-top: 4px;
   padding: 12px 42px;
-  background-image: url("../images/icons.svg#icon-mobile");
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
   outline: 0px;
 }
 .comment-area {

@@ -636,7 +636,7 @@ section.bottom {
   text-align: center;
   color: #212121;
 }
-.form-area {
+.inpunt-area {
   width: 448px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -647,9 +647,17 @@ section.bottom {
   background-size: 16px 16px;
   background-repeat: no-repeat;
 }
-.comment-area:focus-within {
-  border: 1px solid #2196f3;
+.inpunt-area:focus {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-top: 4px;
+  padding: 12px 42px;
+  background-image: url("../images/icons.svg#icon-mobile");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  outline: 0px;
 }
 .comment-area {
   margin-top: 4px;
@@ -662,6 +670,11 @@ section.bottom {
   line-height: 1.16;
   padding: 12px 16px;
   resize: none;
+}
+.comment-area:focus {
+  outline: 0px;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 .checkbox-link {
   text-decoration: underline;

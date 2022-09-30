@@ -664,15 +664,12 @@ section.bottom {
   top: 110px;
   left: 50px;
 }
+.user-icon:hover {
+  fill: green;
+}
 .input-area:focus-within {
   border: 1px solid #2196f3;
   outline: 0px;
-}
-.user-input:focus-within + .user-icon {
-  fill: yellow;
-}
-.user-input:hover + .user-icon {
-  fill: yellow;
 }
 .comment-area {
   margin-top: 4px;

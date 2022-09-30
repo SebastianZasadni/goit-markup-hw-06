@@ -679,7 +679,7 @@ section.bottom {
   line-height: 1.16;
   padding: 12px 16px;
   resize: none;
-  background-image: url("../images/icons.svg#icon-personicon");
+  background-image: url("../images/icons.svg#icon-close");
 }
 .comment-area:focus {
   outline: 0px;

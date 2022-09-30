@@ -567,23 +567,48 @@ label {
   margin-top: 4px;
   padding: 12px 42px;
 }
-.user-icon {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: #afb1b8;
-  position: absolute;
-  top: 110px;
-  left: 50px;
-}
 .input-area:focus-within {
   border: 1px solid #2196f3;
   outline: 0px;
 }
-.modal .form-modal .user-label .user-input:focus + .user-icon {
-  fill: yellow;
+.user-label {
+  position: relative;
+}
+.user-label::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  top: 25px;
+  left: 5px;
+  background-image: url("../images/icons.svg#icon-user");
+}
+.phone-label {
+  position: relative;
+}
+.phone-label::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  top: 25px;
+  left: 5px;
+  background-image: url("../images/icons.svg#icon-phone");
+}
+.email-label {
+  position: relative;
+}
+.email-label::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  top: 25px;
+  left: 5px;
+  background-image: url("../images/icons.svg#icon-email");
 }
 .comment-area {
   margin-top: 4px;

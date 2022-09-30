@@ -469,13 +469,7 @@ section.bottom {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-card:hover .portfolio-describe {
-  opacity: 0.9;
-  height: 294px;
-  top: 0px;
-  transition: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+.project-card:hover .portfolio-describe,
 .project-card:focus .portfolio-describe {
   opacity: 0.9;
   height: 294px;
@@ -483,19 +477,13 @@ section.bottom {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-card:hover {
-  border-bottom: 1px solid #eeeeee;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
+.project-card:hover,
 .project-card:focus {
   border-bottom: 1px solid #eeeeee;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -556,14 +544,14 @@ section.bottom {
   stroke: currentColor;
   fill: #000;
 }
-.form-modal > label {
+label {
   font-family: "Roboto";
   font-size: 12px;
   line-height: 1.16;
   margin-top: 10px;
   display: block;
 }
-.header-form {
+.header-modal {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 20px;
@@ -658,7 +646,7 @@ section.bottom {
   margin-top: 40px;
   margin-left: 124px;
 }
-.newsletter-box h3 {
+.header-newsletter {
   color: #fff;
   font-family: "Roboto";
   font-weight: 700;

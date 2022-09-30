@@ -575,7 +575,7 @@ label {
   position: relative;
 }
 .user-input {
-  background-image: url("../images/icons.svg#checkmark");
+  background-image: url("../images/icons.svg#icon-twitter");
   background-size: 16px 16px;
   background-position: 10px 10px;
   background-repeat: no-repeat;

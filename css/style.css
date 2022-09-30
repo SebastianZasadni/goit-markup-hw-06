@@ -60,15 +60,7 @@ footer .container {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link:focus {
-  text-decoration: none;
-  color: #2196f3;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-
+.nav-link:focus,
 .nav-link:hover {
   text-decoration: none;
   color: #2196f3;
@@ -90,22 +82,7 @@ footer .container {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-nav .contact-link:not(:first-child) {
-  margin-left: 50px;
-}
-.contact-nav .contact-link:hover:not(:first-child) {
-  margin-left: 50px;
-}
-.contact-nav .contact-link:focus:not(:first-child) {
-  margin-left: 50px;
-}
-.contact-link:hover {
-  text-decoration: none;
-  color: #2196f3;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
+.contact-link:hover,
 .contact-link:focus {
   text-decoration: none;
   color: #2196f3;
@@ -200,9 +177,29 @@ section {
   margin: 0px;
   padding-bottom: 50px;
 }
-.workimg-box {
+.ourwork-box {
   display: flex;
   justify-content: space-between;
+}
+.ourwork-card {
+  position: relative;
+}
+.ourwork-describe {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 210px;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
 }
 section.bottom {
   background-color: #f5f4fa;
@@ -340,7 +337,7 @@ section.bottom {
   fill: currentColor;
   text-align: center;
 }
-.lorem-svgbox {
+.lorem-svgcard {
   width: 270px;
   height: 120px;
   border: 0px;
@@ -460,16 +457,7 @@ section.bottom {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.footersocial-box .socialmedia-list .socialmedia-item .social-link:hover {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: #fff;
-  border-radius: 50%;
-  background-color: #2196f3;
-}
+.footersocial-box .socialmedia-list .socialmedia-item .social-link:hover,
 .footersocial-box .socialmedia-list .socialmedia-item .social-link:focus {
   display: inline-block;
   width: 44px;
@@ -501,26 +489,6 @@ section.bottom {
   background: #2196f3;
   border-radius: 2px;
   top: 95.5px;
-}
-.workimg-card {
-  position: relative;
-}
-.workimg-describe {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  top: 210px;
-  display: flex;
-  width: 370px;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
 }
 .portfolio-describe {
   position: absolute;
@@ -706,7 +674,6 @@ section.bottom {
 .modal-user-legacy::before {
   display: block;
   content: " ";
-
   border: 1px solid #212121;
   width: 16px;
   height: 16px;

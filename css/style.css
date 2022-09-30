@@ -644,9 +644,21 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
-.input-area:focus {
+.user-icon {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #afb1b8;
+  position: absolute;
+  top: 110px;
+  left: 50px;
+}
+.input-area:focus + .user-icon {
   border: 1px solid #2196f3;
   outline: 0px;
+  fill: yellow;
 }
 .comment-area {
   margin-top: 4px;
@@ -714,15 +726,4 @@ section.bottom {
 }
 .label-footer {
   display: flex;
-}
-.user-icon {
-  display: inline-block;
-  width: 44px;
-  height: 44px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: #afb1b8;
-  position: absolute;
-  top: 130px;
-  left: 80px;
 }

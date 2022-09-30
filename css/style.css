@@ -644,6 +644,10 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
+.user-label:focus-within {
+  fill: yellow;
+  background-color: #f5f4fa;
+}
 .user-icon {
   display: inline-block;
   width: 44px;

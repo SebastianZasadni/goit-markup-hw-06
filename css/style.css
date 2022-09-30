@@ -679,7 +679,6 @@ section.bottom {
   line-height: 1.16;
   padding: 12px 16px;
   resize: none;
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='752' height='32' viewBox='0 0 752 32'%3E%3Csvg id='icon-personicon' width='32' height='32' viewBox='0 0 32 32' x='0' y='0'%3E%3Cpath fill='%232196f3' d='M16 16c2.947 0 5.333-2.387 5.333-5.333s-2.387-5.333-5.333-5.333c-2.947 0-5.333 2.387-5.333 5.333s2.387 5.333 5.333 5.333zM16 18.667c-3.56 0-10.667 1.787-10.667 5.333v1.333c0 0.733 0.6 1.333 1.333 1.333h18.667c0.733 0 1.333-0.6 1.333-1.333v-1.333c0-3.547-7.107-5.333-10.667-5.333z'%3E%3C/path%3E%3C/svg%3E");
 }
 
 .comment-area:focus {
@@ -707,6 +706,7 @@ section.bottom {
 .modal-user-legacy::before {
   display: block;
   content: " ";
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='752' height='32' viewBox='0 0 752 32'%3E%3Csvg id='icon-personicon' width='32' height='32' viewBox='0 0 32 32' x='0' y='0'%3E%3Cpath fill='%232196f3' d='M16 16c2.947 0 5.333-2.387 5.333-5.333s-2.387-5.333-5.333-5.333c-2.947 0-5.333 2.387-5.333 5.333s2.387 5.333 5.333 5.333zM16 18.667c-3.56 0-10.667 1.787-10.667 5.333v1.333c0 0.733 0.6 1.333 1.333 1.333h18.667c0.733 0 1.333-0.6 1.333-1.333v-1.333c0-3.547-7.107-5.333-10.667-5.333z'%3E%3C/path%3E%3C/svg%3E");
   border: 1px solid #212121;
   width: 16px;
   height: 16px;

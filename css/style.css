@@ -644,15 +644,6 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
-.user-label::before {
-  width: 15px;
-  height: 15px;
-  background-color: grey;
-  content: url("../images/icons.svg#icon-twitter");
-  position: absolute;
-  top: 130px;
-  left: 50px;
-}
 .input-area:focus {
   border: 1px solid #2196f3;
   outline: 0px;
@@ -704,37 +695,6 @@ section.bottom {
   border-radius: 4px;
   color: #fff;
 }
-.form-icons {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  stroke-width: 0;
-  stroke: currentColor;
-}
-.form-icons.user {
-  position: absolute;
-  top: 132px;
-  left: 55px;
-}
-.form-icons.telnumber {
-  position: absolute;
-  top: 202px;
-  left: 55px;
-}
-.form-icons.email {
-  position: absolute;
-  top: 267px;
-  left: 55px;
-  fill: yellow;
-}
-.form-area:focus-within {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-  fill: black;
-}
-.form-area.user:focus-within ..form-icons.user {
-  fill: green;
-}
 .newsletter-box h3 {
   color: #fff;
   font-family: "Roboto";
@@ -755,9 +715,14 @@ section.bottom {
 .label-footer {
   display: flex;
 }
-.test {
-  background-color: yellow;
-  background-image: url("../images/icons.svg#ikonki");
-  background-size: 16px 16px;
-  border: 2px solid grey;
+.user-icon {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #afb1b8;
+  position: absolute;
+  top: 130px;
+  left: 80px;
 }

@@ -613,7 +613,6 @@ label {
   padding: 0px;
 }
 .modal-user-legacy {
-  margin-left: 9px;
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
@@ -628,6 +627,7 @@ label {
   height: 16px;
   position: absolute;
   left: -25px;
+  top: 3px;
 }
 .checkbox-legacy:checked + .modal-user-legacy::before {
   border: none;

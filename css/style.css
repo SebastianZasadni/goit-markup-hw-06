@@ -664,12 +664,6 @@ section.bottom {
   top: 110px;
   left: 50px;
 }
-.user-icon:hover {
-  fill: green;
-}
-.input-area:hover + .user-icon {
-  fill: black;
-}
 .input-area:focus-within {
   border: 1px solid #2196f3;
   outline: 0px;
@@ -685,6 +679,7 @@ section.bottom {
   line-height: 1.16;
   padding: 12px 16px;
   resize: none;
+  background-image: url("../images/icons.svg#icon-personicon");
 }
 .comment-area:focus {
   outline: 0px;

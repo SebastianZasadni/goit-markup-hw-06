@@ -659,7 +659,7 @@ section.bottom {
   border: 1px solid #2196f3;
   outline: 0px;
 }
-.user-input:focus + .user-icon {
+.user-input:focus-within + .user-icon {
   fill: yellow;
 }
 .user-input:hover + .user-icon {

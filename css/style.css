@@ -667,6 +667,9 @@ section.bottom {
 .user-icon:hover {
   fill: green;
 }
+.input-area:hover + .user-icon {
+  fill: black;
+}
 .input-area:focus-within {
   border: 1px solid #2196f3;
   outline: 0px;

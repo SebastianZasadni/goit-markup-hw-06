@@ -644,10 +644,6 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
-.user-label:focus-within {
-  fill: yellow;
-  background-color: #f5f4fa;
-}
 .user-icon {
   display: inline-block;
   width: 44px;
@@ -662,6 +658,11 @@ section.bottom {
 .input-area:focus-within {
   border: 1px solid #2196f3;
   outline: 0px;
+}
+.user-input:focus + .user-icon {
+  fill: yellow;
+}
+.user-input:hover + .user-icon {
   fill: yellow;
 }
 .comment-area {

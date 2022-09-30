@@ -655,7 +655,7 @@ section.bottom {
   top: 110px;
   left: 50px;
 }
-.input-area:focus + .user-icon {
+.input-area:focus-within {
   border: 1px solid #2196f3;
   outline: 0px;
   fill: yellow;

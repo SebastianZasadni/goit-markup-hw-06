@@ -630,7 +630,6 @@ label {
   left: -25px;
 }
 .checkbox-legacy:checked + .modal-user-legacy::before {
-  background-color: #2196f3;
   border: none;
   border-radius: 2px;
   background-image: url("../images/icons.svg#checkmark");

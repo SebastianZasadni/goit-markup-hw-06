@@ -636,9 +636,6 @@ section.bottom {
   text-align: center;
   color: #212121;
 }
-.form-label {
-  position: relative;
-}
 .input-area {
   width: 448px;
   height: 40px;
@@ -647,23 +644,17 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
 }
-.input-area::before {
-  width: 10px;
-  height: 10px;
-  border: 1px solid black;
+.user-label::before {
+  width: 15px;
+  height: 15px;
+  background-color: grey;
+  content: url("../images/icons.svg#icon-twitter");
   position: absolute;
-  contain: "";
-  background-color: yellow;
-  top: 0px;
-  left: 0px;
+  top: 130px;
+  left: 50px;
 }
 .input-area:focus {
-  width: 448px;
-  height: 40px;
   border: 1px solid #2196f3;
-  border-radius: 4px;
-  margin-top: 4px;
-  padding: 12px 42px;
   outline: 0px;
 }
 .comment-area {

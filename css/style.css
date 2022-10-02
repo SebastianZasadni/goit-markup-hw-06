@@ -646,7 +646,7 @@ section.bottom {
   fill: currentColor;
   opacity: 0;
 }
-.checkbox-legacy:checked + .icon-nocheck {
+.checkbox-legacy:checked ~ .icon-nocheck {
   opacity: 0;
 }
 .checkbox-legacy:checked + .icon-check {

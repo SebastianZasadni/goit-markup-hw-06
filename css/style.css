@@ -620,24 +620,28 @@ section.bottom {
   position: relative;
   margin-left: 39px;
 }
-.checkbox-legacy:checked + .icon-check {
-  opacity: 1;
-  border: 0px;
-  border-radius: 2px;
-}
-.icon-check-box {
+.icon-checkbox {
   border: 1px solid black;
   width: 16px;
   height: 15px;
+  position: absolute;
+  top: 0px;
+  left: -25px;
+}
+.checkbox-legacy:checked + .icon-checkbox {
+  opacity: 0;
 }
 .icon-check {
   display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  position: absolute;
-  top: 0px;
-  left: -25px;
+  opacity: 0;
+}
+.checkbox-legacy:checked + .icon-check {
+  opacity: 1;
+  border: 0px;
+  border-radius: 2px;
 }
 .visually-hidden {
   position: absolute !important;

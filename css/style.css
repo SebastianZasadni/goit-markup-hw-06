@@ -630,9 +630,10 @@ section.bottom {
   left: -25px;
   width: 16px;
   height: 15px;
+  opacity: 0;
 }
 .checkbox-legacy:checked + .icon-check {
-  opacity: 0.5;
+  opacity: 1;
   border: 0px;
   border-radius: 2px;
 }

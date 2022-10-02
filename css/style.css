@@ -620,7 +620,7 @@ section.bottom {
   margin-left: 39px;
 }
 .checkbox-legacy:checked + .icon-check {
-  fill: black;
+  opacity: 1;
 }
 .icon-check {
   display: inline-block;

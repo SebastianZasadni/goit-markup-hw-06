@@ -632,6 +632,18 @@ section.bottom {
   height: 15px;
   opacity: 0;
 }
+.icon-nocheck {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  opacity: 1;
+}
+.checkbox-legacy:checked + .icon-nocheck {
+  opacity: 0;
+}
 .checkbox-legacy:checked + .icon-check {
   opacity: 1;
   border: 0px;

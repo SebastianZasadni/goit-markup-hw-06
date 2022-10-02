@@ -620,23 +620,15 @@ section.bottom {
   position: relative;
   margin-left: 39px;
 }
-.icon-checkbox {
-  border: 2px solid black;
-  width: 16px;
-  height: 15px;
-  position: absolute;
-  top: 0px;
-  left: -25px;
-}
-.checkbox-legacy:checked + .icon-checkbox {
-  opacity: 0;
-}
 .icon-check {
   display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
   opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: -25px;
 }
 .checkbox-legacy:checked + .icon-check {
   opacity: 1;

@@ -611,6 +611,7 @@ section.bottom {
   margin-top: 20px;
   margin-left: 5px;
   padding: 0px;
+  position: relative;
 }
 .modal-user-legacy {
   font-family: "Roboto";
@@ -631,11 +632,12 @@ section.bottom {
   fill: currentColor;
   opacity: 0.5;
   margin-right: 15px;
-}
-.nochecked-box {
   width: 16px;
   height: 15px;
   border: 1px solid black;
+  position: absolute;
+  top: 0px;
+  left: -25px;
 }
 .visually-hidden {
   position: absolute !important;

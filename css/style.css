@@ -628,6 +628,8 @@ section.bottom {
   position: absolute;
   top: 0px;
   left: -25px;
+  width: 16px;
+  height: 15px;
 }
 .icon-nocheck {
   display: inline-block;

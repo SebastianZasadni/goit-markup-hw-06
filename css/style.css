@@ -585,7 +585,7 @@ section.bottom {
   stroke: currentColor;
   fill: #212121;
 }
-.user-input:focus + .user-icon {
+.modal-input:focus + .user-icon {
   fill: #2196f3;
 }
 .comment-area {

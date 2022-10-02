@@ -550,6 +550,7 @@ section.bottom {
   line-height: 1.16;
   margin-top: 10px;
   display: block;
+  position: relative;
 }
 .header-modal {
   font-family: "Roboto";
@@ -570,9 +571,6 @@ section.bottom {
 .input-area:focus-within {
   border: 1px solid #2196f3;
   outline: 0px;
-}
-.user-label {
-  position: relative;
 }
 .modal-input-icon {
   position: absolute;

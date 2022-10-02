@@ -621,7 +621,7 @@ section.bottom {
   margin-left: 39px;
 }
 .checkbox-legacy:checked + .icon-check {
-  opacity: 0.5;
+  opacity: 1;
   border: 0px;
   border-radius: 2px;
 }
@@ -637,6 +637,7 @@ section.bottom {
   position: absolute;
   top: 0px;
   left: -25px;
+  opacity: 0;
 }
 .visually-hidden {
   position: absolute !important;

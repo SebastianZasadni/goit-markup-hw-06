@@ -625,7 +625,6 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  opacity: 0;
   position: absolute;
   top: 0px;
   left: -25px;

@@ -629,6 +629,7 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  opacity: 0.5;
 }
 .visually-hidden {
   position: absolute !important;

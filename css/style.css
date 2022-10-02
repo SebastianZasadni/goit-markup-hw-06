@@ -631,15 +631,6 @@ section.bottom {
   width: 16px;
   height: 15px;
 }
-.icon-nocheck {
-  display: inline-block;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-  position: absolute;
-  top: 0px;
-  left: -25px;
-}
 .checkbox-legacy:checked + .icon-check {
   opacity: 0.5;
   border: 0px;

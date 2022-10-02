@@ -644,20 +644,7 @@ section.bottom {
   margin-top: 40px;
   margin-left: 124px;
 }
-.newsletter-button {
-  padding: 0px;
-  margin-top: 30px;
-  margin-bottom: 210px;
-  margin-left: 12px;
-}
-.icon-send {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
+
 .header-newsletter {
   color: #fff;
   font-family: "Roboto";
@@ -674,6 +661,20 @@ section.bottom {
   padding: 15px 16px;
   background-color: #2f303a;
   color: rgba(255, 255, 255, 0.6);
+}
+.newsletter-button {
+  padding: 0px;
+  margin-top: 30px;
+  margin-bottom: 210px;
+  margin-left: 12px;
+}
+.icon-send {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 .label-footer {
   display: flex;

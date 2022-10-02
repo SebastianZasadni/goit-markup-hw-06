@@ -567,6 +567,8 @@ section.bottom {
   margin-top: 4px;
   padding: 12px 42px;
   color: #212121;
+  transition: 700ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-area:focus-within {
   border: 1px solid #2196f3;
@@ -582,6 +584,8 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: #212121;
+  transition: 700ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-area:focus + .modal-input-icon {
   fill: #2196f3;
@@ -633,6 +637,8 @@ section.bottom {
   width: 16px;
   height: 15px;
   opacity: 0;
+  transition: 700ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-nocheck {
   position: absolute;
@@ -644,6 +650,8 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: #212121;
+  transition: 700ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox-legacy:checked ~ .icon-nocheck {
   opacity: 0;

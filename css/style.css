@@ -621,7 +621,6 @@ section.bottom {
   margin-left: 39px;
 }
 .checkbox-legacy:checked + .icon-check {
-  opacity: 1;
 }
 .icon-check {
   display: inline-block;
@@ -630,7 +629,6 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  opacity: 0.5;
   margin-right: 15px;
   width: 16px;
   height: 15px;

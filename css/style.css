@@ -574,40 +574,28 @@ label {
 .user-label {
   position: relative;
 }
-.user-input {
-  background-image: url("../images/icons.svg#checkmark");
-  background-size: 16px 16px;
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
+.user-icon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #afb1b8;
 }
-.user-input:focus {
-  background-image: none;
-  background-color: black;
+.user-input:focus + .user-icon {
+  fill: blue;
 }
 .phone-label {
   position: relative;
 }
-.phone-label::before {
-  position: absolute;
-  content: "";
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
-  top: 25px;
-  left: 5px;
-}
+
 .email-label {
   position: relative;
 }
-.email-label::before {
-  position: absolute;
-  content: "";
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
-  top: 25px;
-  left: 5px;
-}
+
 .comment-area {
   margin-top: 4px;
   width: 448px;

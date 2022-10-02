@@ -614,11 +614,13 @@ section.bottom {
   position: relative;
 }
 .modal-user-legacy {
+  display: block;
   font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   position: relative;
   margin-left: 39px;
+  margin-top: 20px;
 }
 .icon-check {
   display: inline-block;

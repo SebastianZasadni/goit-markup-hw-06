@@ -636,7 +636,7 @@ section.bottom {
 }
 .icon-nocheck {
   position: absolute;
-  top: 0px;
+  top: 5px;
   left: -25px;
   display: inline-block;
   width: 16px;

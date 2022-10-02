@@ -619,9 +619,15 @@ section.bottom {
   position: relative;
   margin-left: 39px;
 }
-.checkbox-legacy:checked + .modal-user-legacy::before {
-  border: none;
-  background-image: url("../images/icons.svg#icon-check");
+.checkbox-legacy:checked + {
+}
+.icon-check {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 .visually-hidden {
   position: absolute !important;

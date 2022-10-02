@@ -627,17 +627,15 @@ section.bottom {
 }
 .icon-check {
   display: inline-block;
-  stroke-width: 0;
-  stroke: currentColor;
+  stroke-width: 1;
+  stroke: black;
   fill: currentColor;
   margin-right: 15px;
   width: 16px;
   height: 15px;
-  border: 1px solid black;
   position: absolute;
   top: 0px;
   left: -25px;
-  opacity: 0;
 }
 .visually-hidden {
   position: absolute !important;

@@ -567,6 +567,7 @@ section.bottom {
   border-radius: 4px;
   margin-top: 4px;
   padding: 12px 42px;
+  color: #212121;
 }
 .input-area:focus-within {
   border: 1px solid #2196f3;
@@ -574,7 +575,7 @@ section.bottom {
 }
 .modal-input-icon {
   position: absolute;
-  top: 30px;
+  top: 25px;
   left: 14px;
   display: inline-block;
   width: 18px;

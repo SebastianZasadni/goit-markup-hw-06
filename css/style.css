@@ -644,7 +644,7 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  opacity: 1;
+  opacity: 0;
 }
 .checkbox-legacy:checked + .icon-nocheck {
   opacity: 0;

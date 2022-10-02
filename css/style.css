@@ -619,17 +619,6 @@ section.bottom {
   position: relative;
   margin-left: 39px;
 }
-.modal-user-legacy::before {
-  display: block;
-  content: " ";
-  border: 1px solid #212121;
-  border-radius: 2px;
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  left: -25px;
-  top: 3px;
-}
 .checkbox-legacy:checked + .modal-user-legacy::before {
   border: none;
   background-image: url("../images/icons.svg#icon-check");

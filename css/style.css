@@ -667,6 +667,7 @@ section.bottom {
   margin-bottom: 210px;
   margin-left: 12px;
   position: relative;
+  padding-right: 24px;
 }
 .icon-send {
   display: inline-block;

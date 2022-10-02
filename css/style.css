@@ -544,7 +544,7 @@ section.bottom {
   stroke: currentColor;
   fill: #000;
 }
-label {
+.modal-label {
   font-family: "Roboto";
   font-size: 12px;
   line-height: 1.16;
@@ -574,28 +574,20 @@ label {
 .user-label {
   position: relative;
 }
-.user-icon {
+.modal-input-icon {
   position: absolute;
-  top: 5px;
+  top: 10px;
   left: 5px;
   display: inline-block;
   width: 44px;
   height: 44px;
   stroke-width: 0;
   stroke: currentColor;
-  fill: #afb1b8;
+  fill: #212121;
 }
 .user-input:focus + .user-icon {
-  fill: blue;
+  fill: #2196f3;
 }
-.phone-label {
-  position: relative;
-}
-
-.email-label {
-  position: relative;
-}
-
 .comment-area {
   margin-top: 4px;
   width: 448px;

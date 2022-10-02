@@ -622,6 +622,8 @@ section.bottom {
 }
 .checkbox-legacy:checked + .icon-check {
   opacity: 0.5;
+  border: 0px;
+  border-radius: 2px;
 }
 .icon-check {
   display: inline-block;

@@ -619,6 +619,7 @@ section.bottom {
   display: block;
   content: " ";
   border: 1px solid #212121;
+  border-radius: 2px;
   width: 16px;
   height: 16px;
   position: absolute;

@@ -635,9 +635,6 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  margin-right: 15px;
-  width: 16px;
-  height: 15px;
   position: absolute;
   top: 0px;
   left: -25px;

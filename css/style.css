@@ -634,8 +634,8 @@ section.bottom {
 }
 .icon-nocheck {
   display: inline-block;
-  width: 1em;
-  height: 1em;
+  width: 16px;
+  height: 15px;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;

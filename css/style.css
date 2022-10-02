@@ -633,7 +633,6 @@ section.bottom {
 .checkbox-legacy:checked + .modal-user-legacy::before {
   border: none;
   background-image: url("../images/icons.svg#icon-check");
-  background-image: url("../images/icons.svg#icon-checktwo");
 }
 .visually-hidden {
   position: absolute !important;

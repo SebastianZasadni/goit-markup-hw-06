@@ -632,6 +632,11 @@ section.bottom {
   opacity: 0.5;
   margin-right: 15px;
 }
+.nochecked-box {
+  width: 16px;
+  height: 15px;
+  border: 1px solid black;
+}
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);

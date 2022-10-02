@@ -625,10 +625,15 @@ section.bottom {
   border: 0px;
   border-radius: 2px;
 }
+.icon-check-box {
+  border: 1px solid black;
+  width: 16px;
+  height: 15px;
+}
 .icon-check {
   display: inline-block;
-  stroke-width: 1;
-  stroke: black;
+  stroke-width: 0;
+  stroke: currentColor;
   fill: currentColor;
   margin-right: 15px;
   width: 16px;

@@ -644,7 +644,6 @@ section.bottom {
   margin-top: 40px;
   margin-left: 124px;
 }
-
 .header-newsletter {
   color: #fff;
   font-family: "Roboto";
@@ -667,6 +666,7 @@ section.bottom {
   margin-top: 30px;
   margin-bottom: 210px;
   margin-left: 12px;
+  position: relative;
 }
 .icon-send {
   display: inline-block;
@@ -675,6 +675,9 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  position: absolute;
+  top: 13px;
+  left: 148px;
 }
 .label-footer {
   display: flex;

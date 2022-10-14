@@ -680,6 +680,7 @@ section.bottom {
 .modal-button {
   margin-top: 40px;
   margin-left: 124px;
+  padding: 10px 76px;
 }
 .header-newsletter {
   color: #fff;

@@ -1,6 +1,11 @@
+:root {
+  --light-blue: #2196f3;
+  --black: #212121;
+  --grey: #757575;
+}
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: var(--black);
   width: 1600px;
   position: relative;
 }
@@ -29,7 +34,7 @@ footer .container {
   margin: 0px;
   text-decoration: none;
   font-family: "Raleway";
-  color: #2196f3;
+  color: var(--light-blue);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -56,14 +61,14 @@ footer .container {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: #212121;
+  color: var(--black);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-link:focus,
 .nav-link:hover {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--light-blue);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -75,7 +80,7 @@ footer .container {
 .contact-link {
   display: inline-block;
   text-decoration: none;
-  color: #757575;
+  color: var(--grey);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -89,7 +94,7 @@ footer .container {
 .contact-link:hover,
 .contact-link:focus {
   text-decoration: none;
-  color: #2196f3;
+  color: var(--light-blue);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -128,17 +133,18 @@ h1 {
   margin-bottom: 210px;
 }
 .button {
-  background-color: #2196f3;
+  padding: 10px 41px 10px 42px;
+  margin-top: 30px;
+  margin-bottom: 210px;
+  background-color: var(--light-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   color: #fff;
-  width: 200px;
-  height: 50px;
   cursor: pointer;
-  border: 0;
+  border: 0px;
   letter-spacing: 0.06em;
 }
 section {
@@ -162,7 +168,7 @@ section {
   text-transform: uppercase;
 }
 .lorem-describe {
-  color: #757575;
+  color: var(--grey);
   font-size: 14px;
   line-height: 1.71;
   margin: 0px;
@@ -223,7 +229,7 @@ section.bottom {
   padding-bottom: 10px;
 }
 .job-title {
-  color: #757575;
+  color: var(--grey);
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -261,7 +267,7 @@ section.bottom {
   border: 0px;
   cursor: pointer;
   color: #fff;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   margin-left: 8px;
@@ -279,12 +285,12 @@ section.bottom {
   line-height: 2;
 }
 .project-type {
-  color: #757575;
+  color: var(--grey);
   font-size: 16px;
   line-height: 1.87;
 }
 .contact-link .icon-contact {
-  fill: #757575;
+  fill: var(--grey);
   margin-right: 10px;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -307,7 +313,7 @@ section.bottom {
 }
 .contact-link:hover .icon-contact,
 .contact-link:focus .icon-contact {
-  fill: #2196f3;
+  fill: var(--light-blue);
   margin-right: 10px;
 }
 
@@ -352,12 +358,12 @@ section.bottom {
 .ourclient-card:focus {
   width: 170px;
   height: 92px;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
 .ourclient-card:hover .company-logo,
 .ourclient-card:focus .company-logo {
-  fill: #2196f3;
+  fill: var(--light-blue);
 }
 .company-logo {
   display: inline-block;
@@ -396,7 +402,7 @@ section.bottom {
   stroke: currentColor;
   fill: #fff;
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
 }
 .join-us {
   font-family: "Roboto";
@@ -433,17 +439,17 @@ section.bottom {
   stroke: currentColor;
   fill: #fff;
   border-radius: 50%;
-  background-color: #2196f3;
+  background-color: var(--light-blue);
 }
 .mainsite::after,
 .portfoliosite::after {
   display: flex;
   content: "";
-  color: #2196f3;
+  color: var(--light-blue);
   position: absolute;
   width: 53px;
   height: 4px;
-  background: #2196f3;
+  background: var(--light-blue);
   border-radius: 2px;
   top: 95.5px;
 }
@@ -519,7 +525,7 @@ section.bottom {
   top: 50px;
   left: 536px;
   padding: 40px;
-  color: #757575;
+  color: var(--grey);
 }
 .close-btn {
   position: absolute;
@@ -557,7 +563,7 @@ section.bottom {
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-  color: #212121;
+  color: var(--black);
 }
 .input-area {
   width: 448px;
@@ -566,12 +572,12 @@ section.bottom {
   border-radius: 4px;
   margin-top: 4px;
   padding: 12px 42px;
-  color: #212121;
+  color: var(--black);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-area:focus-within {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--light-blue);
   outline: 0px;
 }
 .modal-input-icon {
@@ -583,12 +589,12 @@ section.bottom {
   height: 18px;
   stroke-width: 0;
   stroke: currentColor;
-  fill: #212121;
+  fill: var(--black);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-area:focus + .modal-input-icon {
-  fill: #2196f3;
+  fill: var(--light-blue);
 }
 .comment-area {
   margin-top: 4px;
@@ -604,12 +610,12 @@ section.bottom {
 }
 .comment-area:focus {
   outline: 0px;
-  border: 1px solid #2196f3;
+  border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
 .checkbox-link {
   text-decoration: underline;
-  color: #2196f3;
+  color: var(--light-blue);
 }
 .checkbox-legacy {
   margin-top: 20px;
@@ -649,7 +655,7 @@ section.bottom {
   height: 15px;
   stroke-width: 0;
   stroke: currentColor;
-  fill: #212121;
+  fill: var(--black);
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

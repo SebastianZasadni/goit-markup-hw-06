@@ -26,6 +26,7 @@ header .container {
 footer {
   background-color: #2f303a;
   padding: 60px 0px 60px 0px;
+  height: 252px;
 }
 footer .container {
   display: flex;
@@ -636,6 +637,10 @@ section.bottom {
   margin-left: 39px;
   margin-top: 20px;
 }
+.form-fotter {
+  margin: 0;
+  padding: 0;
+}
 .icon-check {
   display: inline-block;
   stroke-width: 0;
@@ -708,7 +713,7 @@ section.bottom {
   margin-top: 30px;
   margin-bottom: 210px;
   margin-left: 12px;
-  padding: 0;
+  padding: 10px 13px 10px 42px;
 }
 .icon-send {
   margin-left: 24px;

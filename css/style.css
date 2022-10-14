@@ -527,6 +527,10 @@ section.bottom {
   padding: 40px;
   color: var(--grey);
 }
+.form-modal {
+  padding: 0;
+  margin: 0;
+}
 .close-btn {
   position: absolute;
   left: 490px;
@@ -567,7 +571,6 @@ section.bottom {
 }
 .input-area {
   width: 448px;
-  height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
@@ -680,6 +683,7 @@ section.bottom {
 .modal-button {
   margin-top: 40px;
   margin-left: 124px;
+  margin-bottom: 0px;
   padding: 10px 76px;
 }
 .header-newsletter {

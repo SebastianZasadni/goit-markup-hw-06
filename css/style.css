@@ -12,6 +12,7 @@ body {
 .container {
   width: 1200px;
   margin: auto;
+  padding: auto;
 }
 header {
   border-bottom: 1px solid #ececec;
@@ -704,12 +705,10 @@ section.bottom {
   color: rgba(255, 255, 255, 0.6);
 }
 .newsletter-button {
-  padding: 0px;
   margin-top: 30px;
   margin-bottom: 210px;
   margin-left: 12px;
-  position: relative;
-  padding-right: 24px;
+  padding: 10px 13px 10px 42px;
 }
 .icon-send {
   display: inline-block;
@@ -718,9 +717,6 @@ section.bottom {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-  position: absolute;
-  top: 13px;
-  left: 148px;
 }
 .label-footer {
   display: flex;

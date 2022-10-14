@@ -711,6 +711,7 @@ section.bottom {
   padding: 10px 13px 10px 42px;
 }
 .icon-send {
+  margin-left: 24px;
   display: inline-block;
   width: 24px;
   height: 24px;

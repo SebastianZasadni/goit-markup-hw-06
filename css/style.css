@@ -699,8 +699,8 @@ section.bottom {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin: 0;
-  padding: 0;
+  margin-left: 42px;
+  margin-right: 13px;
 }
 .input-news {
   width: 358px;

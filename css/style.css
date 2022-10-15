@@ -716,8 +716,8 @@ section.bottom {
   margin-top: 30px;
   margin-bottom: 210px;
   margin-left: 12px;
-  width: 200px;
-  height: 50px;
+  padding: 10px 76px 10px 42px;
+
   position: relative;
 }
 .icon-send {

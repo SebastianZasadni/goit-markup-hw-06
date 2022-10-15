@@ -693,6 +693,10 @@ section.bottom {
   margin-bottom: 0px;
   padding: 10px 76px;
 }
+.newsletter-box {
+  margin: 0;
+  padding: 0;
+}
 .header-newsletter {
   color: #fff;
   font-family: "Roboto";
@@ -700,8 +704,7 @@ section.bottom {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-left: 42px;
-  margin-right: 13px;
+  margin: 0;
 }
 .input-news {
   width: 358px;

@@ -128,6 +128,7 @@ h1 {
   line-height: 1.36;
   text-transform: uppercase;
   color: #fff;
+  letter-spacing: 0.06em;
 }
 .order-button {
   padding: 0px;
@@ -524,8 +525,8 @@ section.bottom {
   border-radius: 4px;
   width: 528px;
   background-color: #fff;
-  top: 50px;
-  left: 536px;
+  margin-left: 582px;
+  margin-top: 150px;
   padding: 40px;
   color: var(--grey);
 }

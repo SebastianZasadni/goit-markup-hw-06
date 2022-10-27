@@ -159,6 +159,9 @@ section {
   padding: 0px;
   justify-content: space-between;
 }
+.lorem-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
 .lorem-header {
   margin: 0px;
   font-weight: 700;
@@ -334,7 +337,7 @@ section.bottom {
   text-align: center;
 }
 .lorem-svgcard {
-  width: 270px;
+  width: 100%;
   height: 120px;
   border: 0px;
   background: #f5f4fa;

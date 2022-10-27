@@ -158,6 +158,8 @@ section {
   display: flex;
   padding: 0px;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 .lorem-item {
   flex-basis: calc((100% - 90px) / 4);

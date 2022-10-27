@@ -119,11 +119,10 @@ address {
     url("../images/background-orderbox.jpg") no-repeat;
   background-size: cover;
   max-width: 1600px;
+  padding: 200px 0px;
 }
 h1 {
   margin: 0px;
-  padding-top: 200px;
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
@@ -133,12 +132,9 @@ h1 {
 .order-button {
   padding: 0px;
   margin-top: 30px;
-  margin-bottom: 210px;
 }
 .button {
   padding: 10px 41px 10px 42px;
-  margin-top: 30px;
-  margin-bottom: 210px;
   background-color: var(--light-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

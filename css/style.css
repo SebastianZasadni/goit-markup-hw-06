@@ -186,6 +186,7 @@ section {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .ourwork-item {
   position: relative;
@@ -216,6 +217,7 @@ section.bottom {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .ourteam-item {
   background-color: #fff;
@@ -347,6 +349,7 @@ section.bottom {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .ourclient-item {
   flex-basis: calc((100% - 150px) / 6);

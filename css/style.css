@@ -181,12 +181,15 @@ section {
   margin: 0px;
   padding-bottom: 50px;
 }
-.ourwork-box {
+.ourwork-list {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
-.ourwork-card {
+.ourwork-item {
   position: relative;
+  flex-basis: calc((100% - 60px) / 3);
 }
 .ourwork-describe {
   font-family: "Roboto";
@@ -208,15 +211,18 @@ section {
 section.bottom {
   background-color: #f5f4fa;
 }
-.ourteam-box {
+.ourteam-list {
   display: flex;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
-.ourteam-card {
+.ourteam-item {
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 90px) / 4);
 }
 .teammate-name {
   font-weight: 500;
@@ -336,14 +342,14 @@ section.bottom {
   align-items: center;
   margin-bottom: 30px;
 }
-.ourclient-box {
+.ourclient-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
-.ourclient-card {
-  width: 170px;
+.ourclient-item {
+  flex-basis: calc((100% - 150px) / 6);
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -353,15 +359,15 @@ section.bottom {
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.ourclient-card:hover,
-.ourclient-card:focus {
+.ourclient-item:hover,
+.ourclient-item:focus {
   width: 170px;
   height: 92px;
   border: 1px solid var(--light-blue);
   border-radius: 4px;
 }
-.ourclient-card:hover .company-logo,
-.ourclient-card:focus .company-logo {
+.ourclient-item:hover .company-logo,
+.ourclient-item:focus .company-logo {
   fill: var(--light-blue);
 }
 .company-logo {
